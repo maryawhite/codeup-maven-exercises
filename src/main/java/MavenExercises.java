@@ -13,6 +13,7 @@ public class MavenExercises {
         System.out.println("Your input reversed: " + StringUtils.reverse(userInput));
         System.out.println("Your input is numeric true or false: " + StringUtils.isNumeric(userInput));
         System.out.println("Your input with the case swapped: " + StringUtils.swapCase(userInput));
+        System.out.println("StringUtils.reverseDelimited(userInput, ',') = " + StringUtils.reverseDelimited(userInput, ','));
 
     }
 
